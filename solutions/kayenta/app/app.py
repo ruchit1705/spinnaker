@@ -9,7 +9,7 @@ app = Flask('kayenta-tester')
 c = Counter('requests', 'Number of requests served, by http code', ['http_code'])
 
 #os.environ['SUCCESS_RATE'] = 60
-os.environ['SUCCESS_RATE'] = 91
+os.environ['SUCCESS_RATE'] = 90
 
 @app.route('/')
 def hello():
